@@ -1,0 +1,206 @@
+body {
+    background: linear-gradient(to right, #2E3192, #1BFFFF);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container{
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container h1{
+    border-bottom: 1px solid #333;
+}
+
+#header {
+    font-size: 36px; 
+    color: #1d26d8; 
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 30px; 
+    font-family: 'Papyrus', sans-serif; 
+    color: rgb(29, 61, 189); 
+    padding: 15px 0; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#start-button {
+    background-color: #3349f1;
+    color: white;
+    font-size: 24px; 
+    padding: 15px 30px; 
+    margin: 50px auto; 
+    display: block; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+/* Hover effect for the button */
+#start-button:hover {
+    background-color: #0339fa;
+    transform: scale(1.1);
+}
+
+/* Active effect for the button (when clicked) */
+#start-button:active {
+    background-color: #061af8; 
+    transform: scale(1); 
+}
+
+.question {
+    font-size: 15px;
+    color: #333; 
+    margin-bottom: 20px; 
+    padding: 15px; 
+}
+
+/* Style for the answers container */
+.answers {
+    margin-top: 10px; 
+}
+
+/* Style for each answer option */
+.answers div {
+    margin-bottom: 10px; 
+}
+
+.answer-option {
+    margin-right: 10px; 
+    cursor: pointer; 
+}
+
+.answers label {
+    font-size: 18px; 
+    color: #555; 
+}
+
+/* Hover effect for answer labels */
+.answers label:hover {
+    color: #000; 
+    font-weight: bold; 
+}
+
+/* Style for the "Next" and "Submit" buttons */
+#next-button {
+    display: block;
+    margin: 20px auto; 
+    padding: 12px 20px; 
+    font-size: 16px; 
+    background-color: #204ef6; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+/* Hover effect for the button */
+#next-button:hover {
+    background-color: #070389; 
+    transform: scale(1.1); 
+}
+
+/* Active state for the button (when clicked) */
+#next-button:active {
+    background-color: #050c94; 
+    transform: scale(1);
+}
+
+.results h2 {
+    font-size: 28px;
+    color: #1c1c1c; 
+    text-align: center; 
+    margin: 20px auto; 
+    padding: 15px;
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Hover effect for the scores message (optional) */
+.results h2:hover {
+    background-color: #e0e0e0; 
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.actions button {
+    display: inline-block; 
+    margin: 10px;
+    padding: 12px 20px; 
+    font-size: 16px; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    color: white; 
+    background-color: #1E90FF; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+/* Hover effect for the buttons */
+.actions button:hover {
+    background-color: #1C86EE;
+    transform: scale(1.1);
+}
+
+/* Active state for the buttons (when clicked) */
+.actions button:active {
+    background-color: #1874CD; 
+    transform: scale(1); 
+}
+
+/* Specific styling for "Restart Quiz" button */
+#restart-button {
+    background-color: #FF6347;
+}
+
+/* Hover effect for "Restart Quiz" button */
+#restart-button:hover {
+    background-color: #FF4500; 
+}
+
+/* Specific styling for "View Answers" button */
+#view-answers-button {
+    background-color: #0f23a3; 
+}
+
+/* Hover effect for "View Answers" button */
+#view-answers-button:hover {
+    background-color: #0527af; 
+}
+
+/* Style for the view answers container */
+.answer-summary {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the question title */
+.answer-summary h3 {
+    font-size: 20px; 
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the user's answer */
+.answer-summary p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+}
